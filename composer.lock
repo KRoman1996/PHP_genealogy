@@ -1206,22 +1206,22 @@
         },
         {
             "name": "familytree365/multitenancy",
-            "version": "2.0.3",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/familytree365/multitenancy.git",
-                "reference": "a11649641bca1498d999c6d76b67c6f9d1133bb0"
+                "reference": "affb89b1856898028ba582c1d7cff987e0e3a25b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/familytree365/multitenancy/zipball/a11649641bca1498d999c6d76b67c6f9d1133bb0",
-                "reference": "a11649641bca1498d999c6d76b67c6f9d1133bb0",
+                "url": "https://api.github.com/repos/familytree365/multitenancy/zipball/affb89b1856898028ba582c1d7cff987e0e3a25b",
+                "reference": "affb89b1856898028ba582c1d7cff987e0e3a25b",
                 "shasum": ""
             },
             "require": {
-                "laravel-enso/companies": "^3.0",
-                "laravel-enso/core": "^7.0",
-                "laravel-enso/enums": "^2.0"
+                "laravel-enso/companies": "^3.0|^4.0",
+                "laravel-enso/core": "^7.0|^8.0",
+                "laravel-enso/enums": "^2.0|^2.1"
             },
             "type": "library",
             "extra": {
@@ -1258,9 +1258,9 @@
                 "multitenancy"
             ],
             "support": {
-                "source": "https://github.com/familytree365/multitenancy/tree/2.0.3"
+                "source": "https://github.com/familytree365/multitenancy/tree/2.0.6"
             },
-            "time": "2021-08-09T20:54:31+00:00"
+            "time": "2022-02-26T19:34:33+00:00"
         },
         {
             "name": "familytree365/php-gedcom",
@@ -3765,16 +3765,16 @@
         },
         {
             "name": "laravel-enso/forms",
-            "version": "4.3.10",
+            "version": "4.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-enso/forms.git",
-                "reference": "84624b46962054a92a74b0bde0813cf15fcce055"
+                "reference": "03a6b10aa897a56ab66b462aed11cec27e5aad66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-enso/forms/zipball/84624b46962054a92a74b0bde0813cf15fcce055",
-                "reference": "84624b46962054a92a74b0bde0813cf15fcce055",
+                "url": "https://api.github.com/repos/laravel-enso/forms/zipball/03a6b10aa897a56ab66b462aed11cec27e5aad66",
+                "reference": "03a6b10aa897a56ab66b462aed11cec27e5aad66",
                 "shasum": ""
             },
             "require": {
@@ -3819,9 +3819,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-enso/forms/issues",
-                "source": "https://github.com/laravel-enso/forms/tree/4.3.10"
+                "source": "https://github.com/laravel-enso/forms/tree/4.3.11"
             },
-            "time": "2021-07-07T13:35:24+00:00"
+            "time": "2022-02-25T16:29:16+00:00"
         },
         {
             "name": "laravel-enso/google",
@@ -6421,16 +6421,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.2.2",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "13d7751377732637814f0cda0e3f6d3243f9f769"
+                "reference": "47b015bc4e50fd4438c1ffef6139a1fb65d2ab71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/13d7751377732637814f0cda0e3f6d3243f9f769",
-                "reference": "13d7751377732637814f0cda0e3f6d3243f9f769",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/47b015bc4e50fd4438c1ffef6139a1fb65d2ab71",
+                "reference": "47b015bc4e50fd4438c1ffef6139a1fb65d2ab71",
                 "shasum": ""
             },
             "require": {
@@ -6521,7 +6521,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-13T15:00:57+00:00"
+            "time": "2022-02-26T21:24:45+00:00"
         },
         {
             "name": "league/config",
@@ -7530,12 +7530,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Opis\\Closure\\": "src/"
-                },
                 "files": [
                     "functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Opis\\Closure\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
